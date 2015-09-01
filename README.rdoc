@@ -1,28 +1,16 @@
-== README
+Sydney
+https://shielded-hollows-4618.herokuapp.com/-33.8678500/151.2073200
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+London 
+https://shielded-hollows-4618.herokuapp.com/51.5085300/-0.1257400
 
-Things you may want to cover:
+New York
+https://shielded-hollows-4618.herokuapp.com/40.7142700/-74.0059700
 
-* Ruby version
+Moscow
+https://shielded-hollows-4618.herokuapp.com/55.7522200/37.6155600
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Buenos Aires
+https://shielded-hollows-4618.herokuapp.com/-34.6131500/-58.3772300
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
