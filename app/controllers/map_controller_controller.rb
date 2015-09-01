@@ -1,15 +1,16 @@
 class MapControllerController < ApplicationController
 
 	def show
+
 	lat = params[:latitude].to_i
 	lon =	params[:longitude].to_i
-
+	
     
-    if (lat == nil)
+    
     #sidney
-    lat =-33.8678500
-    lon = 151.2073200
-    end
+    #lat =-33.8678500
+    #lon = 151.2073200
+    
     #New York
     #lat =40.7142700
     #lon = -74.0059700
