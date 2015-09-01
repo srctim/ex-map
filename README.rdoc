@@ -4,15 +4,15 @@ big squares
 little squares
 
 Sydney
-https://shielded-hollows-4618.herokuapp.com/-33.8678500/151.2073200
+https://immense-bastion-1056.herokuapp.com/-33.8678500/151.2073200
 
 New York
-https://shielded-hollows-4618.herokuapp.com/40.7142700/-74.0059700
+https://immense-bastion-1056.herokuapp.com/40.7142700/-74.0059700
 
 Moscow
-https://shielded-hollows-4618.herokuapp.com/55.7522200/37.6155600
+https://immense-bastion-1056.herokuapp.com/55.7522200/37.6155600
 
 Buenos Aires
-https://shielded-hollows-4618.herokuapp.com/-34.6131500/-58.3772300
+https://immense-bastion-1056.herokuapp.com/-34.6131500/-58.3772300
 
 
