@@ -1,8 +1,10 @@
+QTH-loc 
+sectors
+big squares
+little squares
+
 Sydney
 https://shielded-hollows-4618.herokuapp.com/-33.8678500/151.2073200
-
-London 
-https://shielded-hollows-4618.herokuapp.com/51.5085300/-0.1257400
 
 New York
 https://shielded-hollows-4618.herokuapp.com/40.7142700/-74.0059700
