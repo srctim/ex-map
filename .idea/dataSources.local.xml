@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails ex-map: development" uuid="e18e50c4-bb87-4f14-8539-4d310cb0e318">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>map_dev.pg_catalog map_dev.public</schema-pattern>
+      <default-schemas>map_dev.pg_catalog map_dev.public</default-schemas>
+    </data-source>
+    <data-source name="Rails ex-map: test" uuid="283ac63c-4f77-4d85-91ab-154ba538fc69">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>map_app_dev.pg_catalog map_app_dev.public</schema-pattern>
+      <default-schemas>map_app_dev.pg_catalog map_app_dev.public</default-schemas>
+    </data-source>
+    <data-source name="Rails ex-map: production" uuid="f7aca0f2-09c7-4568-875e-7ed65d7fd7c7">
+      <user-name>timofiybilyi</user-name>
+      <user-password>dffbdfebdff0dfdddfd9dfd2dff5df9bdf93df99</user-password>
+      <schema-pattern>map_app_dev.pg_catalog map_app_dev.public</schema-pattern>
+      <default-schemas>map_app_dev.pg_catalog map_app_dev.public</default-schemas>
+    </data-source>
+  </component>
+</project>

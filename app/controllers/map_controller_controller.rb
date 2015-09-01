@@ -38,8 +38,8 @@ class MapControllerController < ApplicationController
   bigSquaresH = heightSector/10 #8.00
   bigSquaresW  = widthSector/10  #4.00
 
-    @top_for_big_squares = "#{(10 - (((lat % 10) / 1).floor))*bigSquaresH}px"
-    @left_for_big_squares = "#{((((lon % 20) / 2).floor)*bigSquaresW)}px"
+    @top_for_big_squares = "#{(10-(((lat % 10) / 1).floor))*bigSquaresH - bigSquaresH}px"
+    @left_for_big_squares = "#{((((lon % 20) / 2).floor)+1)*bigSquaresW - bigSquaresW}px"
 
   #last section if need
   #  @last_top = ((lat % 1) * (60 / 2.5)).floor
