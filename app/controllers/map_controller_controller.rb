@@ -24,13 +24,25 @@ class MapControllerController < ApplicationController
     globalWidth = 1810
     globalHeight = 1050
 
-    heightMap =  globalHeight / 18; #58.33
-    widthMap =   globalWidth / 18;  #100.55
+    heightSector =  globalHeight / 18; #58.33
+    widthSector =   globalWidth / 18;  #100.55
 
     lat += 90
     lon += 180
+    #sector
+    @top = "#{globalHeight - ((lat / 10).floor + 1) * heightSector}px"
+    @left = "#{((lon / 20).floor) * widthSector}px"
 
-    @top = "#{globalHeight - ((lat / 10).floor + 1) * heightMap}px"
-    @left = "#{((lon / 20).floor) * widthMap}px"
+    #big squares
+    bigSquaresH = heightSector/10 #5.83
+    bigSquaresW = widthSector/10  #10.05
+
+    @top_for_big_squares = "#{((lat % 10) / 1).floor * bigSquaresH}px"
+    @left_for_big_squares = "#{((lon % 20) / 2).floor * bigSquaresW}px"
+
+  #last squares
+    @last_top = ((lat % 1) * (60 / 2.5)).floor
+    @last_left = ((lon % 2) * (60 / 5)).floor
+
 	end
 end
