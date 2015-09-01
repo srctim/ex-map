@@ -1,23 +1,27 @@
-<%= image_tag("map_homework.png", alt: "world-map", class: "no") %>
-  <div id='marker_div' style="
-          height:  58.33px;
-          width:   100.55px;
+<%= image_tag("world.png", alt: "world-map", class: "no") %>
+
+
+<div id='marker_div' style="
+          height:  40.05px;
+          width:   80.05px;
           background-color: red;
           position: absolute;
-          z-index: 9999;
+          z-index: 999;
           opacity: 0.3;
           left: <%=@left %>;
           top: <%=@top %>;
   ">
+
+
     <div id="big_squares" style="
-            height:  5.83px;
-            width:   10.05px;
-            background-color: lawngreen;
-            position: absolute;
+            height:  4.00px;
+            width:   8.00px;
+            background-color: black;
+            position: relative;
             z-index: 9999;
             opacity: 1;
-            left: <%=@top_for_big_squares %>;
-            top: <%=@left_for_big_squares %>;
+            left: <%= @left_for_big_squares%>;
+            top: <%= @top_for_big_squares %>;
     ">
     </div>
   </div>
